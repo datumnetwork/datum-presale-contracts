@@ -13,7 +13,7 @@ DATG (Datum Genesis Token) is a ERC20-compliant token given to early contributor
 Addresses can be whitelisted and have guaranteed participation up to a set maximum amount
 
 ### Ceiling
-75'000'000
+75'000'000 DATG
 
 ### Rate
 15'000 DATG per 1 ETH
