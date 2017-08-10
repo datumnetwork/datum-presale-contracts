@@ -355,7 +355,7 @@ contract DatCrowdPreSale is Ownable {
   function transferTokensManual(address beneficiary, uint256 amount) onlyOwner {
     require(beneficiary != 0x0);
     require(amount != 0);
-    require(weiRaised.add(msg.value) <= cap);
+    require(weiRaised.add(amount) <= cap);
 
     token.transferFromContract(beneficiary, amount);
 
