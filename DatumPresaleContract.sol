@@ -357,7 +357,11 @@ contract DatCrowdPreSale is Ownable {
     require(amount != 0);
     require(weiRaised.add(amount) <= cap);
 
+    //transfer tokens
     token.transferFromContract(beneficiary, amount);
+
+    // update state
+    weiRaised = weiRaised.add(amount);
 
     //Token purchase event
     TokenPurchase(wallet, beneficiary, 0, amount);
