@@ -261,7 +261,7 @@ contract DatCrowdPreSale is Ownable {
   DatumGenesisToken public token;
 
   // start and end date where investments are allowed (both inclusive)
-  uint256 public startDate = 1501460000;//1502460000; //Fri, 11 Aug 2017 14:00:00 +00:00
+  uint256 public startDate = 1502460000; //Fri, 11 Aug 2017 14:00:00 +00:00
   uint256 public endDate = 1505138400; //Mon, 11 Sep 2017 14:00:00 +00:00
 
   // Minimum amount to participate
